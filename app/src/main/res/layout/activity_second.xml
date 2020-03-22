@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/corona">
+
+
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="180dp"
+        android:onClick="map"
+        android:background="@drawable/mybutton"
+        android:text="Situation" />
+
+    <Button
+        android:id="@+id/statButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="250dp"
+        android:onClick="stat"
+        android:background="@drawable/mybutton"
+        android:text="Statistics" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="330dp"
+        android:onClick="about"
+        android:background="@drawable/mybutton"
+        android:text="About" />
+
+
+
+
+</AbsoluteLayout>

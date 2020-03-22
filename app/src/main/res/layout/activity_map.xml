@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mapback">
+
+
+
+
+    <ImageView
+        android:id="@+id/imgTwo"
+        android:src="@drawable/b"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgThree"
+        android:src="@drawable/c"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"/>
+    <ImageView
+        android:id="@+id/imgFour"
+        android:src="@drawable/d"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"/>
+
+
+    <ImageView
+        android:id="@+id/imgOne"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/a"
+        android:gravity="center"
+        android:layout_height="300dp"
+        android:layout_width="match_parent"/>
+
+
+
+    <TextView
+        android:text="Click On the map^^"
+        android:textColor="@color/colorBlack"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="Back" />
+</FrameLayout>
